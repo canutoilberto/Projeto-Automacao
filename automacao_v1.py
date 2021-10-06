@@ -21,6 +21,7 @@ pyautogui.press('enter')
 
 # Tratando os indicadores desejados
 tabela = pd.read_excel('nome_do_arquivo.xlsx')
+#caso seja preciso visualizar a tabela, utilizar o display
 # display(tabela)
 faturamento = tabela['Valor Final'].sum()
 quantidade = tabela['Quantidade'].sum()
